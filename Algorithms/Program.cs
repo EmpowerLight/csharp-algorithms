@@ -1,11 +1,8 @@
-﻿using Algorithms.Array;
+﻿using Algorithms.BinarySearch;
 
-ArrayOperation arr = new ArrayOperation(7);
+BinarySearch bs = new BinarySearch();
 
-arr.appendValue(1);
-arr.appendValue(2);
-arr.appendValue(3);
-arr.deleteAtBegining();
-arr.prependValue(1);
-arr.deleteAtSpecificLocation(-1);
-arr.printArrayData();
+int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+
+
+Console.WriteLine(bs.binarySearch(0, arr.Length-1, arr, 1));

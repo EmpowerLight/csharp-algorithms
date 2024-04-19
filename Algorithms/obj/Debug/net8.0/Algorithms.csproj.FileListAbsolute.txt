@@ -12,3 +12,4 @@ E:\Algorithms\Algorithms\obj\Debug\net8.0\refint\Algorithms.dll
 E:\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.pdb
 E:\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.genruntimeconfig.cache
 E:\Algorithms\Algorithms\obj\Debug\net8.0\ref\Algorithms.dll
+E:\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.sourcelink.json
