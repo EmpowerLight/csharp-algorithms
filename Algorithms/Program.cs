@@ -1,8 +1,16 @@
-﻿using Algorithms.BinarySearch;
+﻿using Algorithms.LinkedList;
 
-BinarySearch bs = new BinarySearch();
-
-int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+LinkedListOperation list = new LinkedListOperation();
 
 
-Console.WriteLine(bs.binarySearch(0, arr.Length-1, arr, 1));
+
+list.append(1);
+list.append(2);
+list.append(3);
+list.append(4);
+list.prepend(0);
+list.insert(100, 2);
+list.deleteAtBeg();
+list.deleteAtEnd();
+list.remove(1);
+list.printList();
