@@ -1,17 +1,21 @@
-﻿using Algorithms.LinkedList;
+﻿using Algorithms.Stack;
 
-LinkedListOperation list = new LinkedListOperation();
+StaticStackOperation stack = new StaticStackOperation(7);
 
+stack.push(1);
+stack.push(2);
+stack.push(3);
 
-
-list.append(1);
-list.append(2);
-list.append(3);
-list.append(4);
-list.prepend(0);
-list.insert(100, 2);
-list.deleteAtBeg();
-list.deleteAtEnd();
-list.remove(1);
-list.reverseList();
-list.printList();
+stack.push(4);
+stack.push(5);
+stack.push(6);
+stack.push(7);
+stack.pop();
+stack.pop();
+stack.pop();
+stack.pop();
+stack.pop();
+stack.pop();
+stack.pop();
+stack.pop();
+stack.printList();
