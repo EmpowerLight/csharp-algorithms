@@ -13,4 +13,5 @@ list.insert(100, 2);
 list.deleteAtBeg();
 list.deleteAtEnd();
 list.remove(1);
+list.reverseList();
 list.printList();

@@ -148,5 +148,30 @@
             leaderNode.Next = holdingNode.Next;
         }
 
+        // Reverse a linked list
+        public void reverseList()
+        {
+            if (this.head == null)
+            {
+                throw new Exception("Cannot reverse an empty linked list");
+            }
+
+            Node prev = this.head;
+            Node nextNode = prev.Next;
+            Node currentNode = nextNode;
+            prev.Next = null;
+            Node next = null;
+            while (currentNode != null)
+            {
+                next = nextNode.Next;
+                nextNode.Next = prev;
+                prev = nextNode;
+                nextNode = next;
+                currentNode = next;
+            }
+            this.head = prev;
+
+        }
+
     }
 }
